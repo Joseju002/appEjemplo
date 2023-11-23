@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página principal</title>
-        <script src="js/respuestaServidor.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
-    <body onload="obtenerUsuarios()">
-        <table id="tablaUsuarios">
-            <tr>
-                <th>NOMBRE</th>
-                <th>PUNTUACIÓN</th>
-                <th>FECHA DE PARTIDA</th>
-            </tr>
-        </table>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <script src="js/respuestaServidor.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+        padding: 8px;
+    }
+
+    td {
+        padding: 8px;
+    }
+</style>
+
+<body onload="obtenerUsuarios()">
+    <table id="tablaUsuarios">
+        <tr>
+            <th>NOMBRE</th>
+            <th>PUNTUACIÓN</th>
+            <th>FECHA DE PARTIDA</th>
+        </tr>
+    </table>
+</body>
+
 </html>
