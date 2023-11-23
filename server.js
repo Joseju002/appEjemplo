@@ -30,7 +30,7 @@ app.post('/', function(req, res){
                     "puntos": "1500",
                     "fecha": "28/09/2023"},
                     {"nombre":"Daniel",
-                    "puntos": "1400",
+                    "puntos": "2000",
                     "fecha": "01/10/2023"},
                     {"nombre":"Miguel",
                     "puntos": "1300",
